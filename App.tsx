@@ -1,11 +1,7 @@
-import React, {useEffect, useState} from 'react';
-import {StyleSheet, useColorScheme} from 'react-native';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {createStackNavigator} from '@react-navigation/stack';
-import {NavigationContainer} from '@react-navigation/native';
-import HomeScreen from './src/screens/HomeScreen';
-import TodosScreen from './src/screens/TodosScreen';
+import React from 'react';
 import stacks from './Stacks';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 
 const Stack = createStackNavigator();
 
