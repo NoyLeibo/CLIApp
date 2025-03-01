@@ -9,7 +9,7 @@ import stacks from './Stacks';
 
 const Stack = createStackNavigator();
 
-function App(): React.JSX.Element {
+const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -24,5 +24,5 @@ function App(): React.JSX.Element {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+};
 export default App;
